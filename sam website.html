@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login and Registration form</title>
+     <Link Rel="Stylesheet" Href="Style.Css" />
+  </Head>
+<style>
+
+    * {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100vh;
+  Background: Url(Img/Bg.Png);
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+}
+.Logo {
+  Max-Height: 60px;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+  Color: #1d1d24;
+  Position: Relative;
+  Padding: 5px 0;
+}
+Nav Ul Li A:hover {
+  Color: #Fd4766;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #Fd4766;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+.Btn {
+  Color: #Fff;
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #Fd4766;
+  Border: 2px Solid #Fd4766;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color: #Fd4766;
+  Color: #Fd4766;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 15px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  Background: Linear-Gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #Fd4766 79.69%
+  );
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+}
+.Content H1 {
+  Color: #1f1f25;
+  Font-Size: 75px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H1 Span {
+  Color: #Fd4766;
+}
+.Content P {
+  Width: 55%;
+  Color: #202020;
+  Margin-Top: 25px;
+  Margin-Bottom: 30px;
+}
+    body{
+
+    background-color:#FFFFFF;
+    background-image: linear-gradient(62deg,#BEC5FC 0%,#E0C3FC 100%);
+    }
+
+    .container-1{
+    transform: translate(0,50%);
+    background-color: whitesmoke;
+    }
+input[type=text], input[type=password] {
+  background-color:#8EC5FC;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+</style>
+
+
+
+<div class="container m-5 border p-3 container-1">
+    <h1 class="text-center">Login</h1>
+    <form action="">
+        <div>
+
+
+        <label for="id_username">username </label>
+        <input type="text" class="form-control">
+            <br>
+            </div>
+        <div class="mt-2">
+            <label for="id_password">password</label>
+            <input type="password" class="form-control">
+            <br>
+        </div>
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary form-control">login</button>
+            <button class="btn btn-link">forgot password</button>
+             </center>
+            <br>
+
+    </form>
+
+
+
+
+
+  <Body>
+
+    <Div Class="Hero">
+      <Nav>
+        <Img Src="" Class="Logo" />
+        <Ul>
+          <Li><A Href="#">Home</A></Li>
+          <Li><A Href="#">About</A></Li>
+          <Li><A Href="#">Service</A></Li>
+          <Li><A Href="#">Portfolio</A></Li>
+          <Li><A Href="#">Blog</A></Li>
+          <Li><A Href="#">Contact</A></Li>
+        </Ul>
+        <A Href="#" Class="Btn">Resume</A>
+      </Nav>
+
+      <Div Class="Content">
+        <Span Class="Title">Web Developer ,Software Developer</Span>
+        <H1>Hello, I’m Ajmal<Span></Span></H1>
+        <P>
+          I’m Working On A Professional, Visually Sophisticated And
+          Technologically Proficient, Responsive And Multi-Functional
+          Components.
+        </P>
+        <A Href="#" Class="Btn">Download CV</A>
+      </Div>
+    </Div>
+  </Body>
+</Html>
+
+
+
+</head>
+<body>
+
+</body>
+</html>
